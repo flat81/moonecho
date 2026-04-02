@@ -1,0 +1,33 @@
+# GitHub Pages (Jekyll) — 게임 블로그
+title: "MoonEcho 게임 블로그"
+description: "플레이 기록, 리뷰, 메모"
+url: "https://moonecho.github.io"
+baseurl: ""
+
+# 테마: GitHub Pages 기본 지원
+theme: minima
+
+# 블로그 설정
+permalink: /:categories/:year/:month/:day/:title:output_ext
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# 작성자 (필요 시 수정)
+author:
+  name: MoonEcho
+  email: ""
+
+# 소셜/피드 (선택)
+minima:
+  skin: dark
+  social_links:
+    - { platform: github, user_url: "https://github.com/moonecho" }
+
+markdown: kramdown
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
