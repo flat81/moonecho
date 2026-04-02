@@ -1,4 +1,4 @@
-# MoonEcho 게임 블로그
+# 달빛여운의 게임 블로그
 
 GitHub Pages + Jekyll 기반 정적 블로그입니다.
 
