@@ -1,6 +1,8 @@
-# 달빛여운 Game Log
+# 달빛여운
 
-GitHub Pages + Jekyll 기반 개인 게임 블로그입니다.
+게임 스트리머 달빛여운이 운영하는 GitHub Pages 사이트입니다.
+
+초기 버전은 월드 오브 워크래프트 자료실과 클래스별 가이드를 중심으로 구성합니다.
 
 ## 로컬 실행
 
@@ -9,23 +11,15 @@ bundle install
 bundle exec jekyll serve
 ```
 
-브라우저에서 `http://127.0.0.1:4000`으로 확인합니다.
+브라우저에서 `http://127.0.0.1:4000/moonecho/`로 확인합니다.
 
-## 새 글 작성
+## 주요 페이지
 
-`_posts/`에 `YYYY-MM-DD-title.md` 형식으로 파일을 만들고 front matter를 작성합니다.
-
-```markdown
----
-layout: post
-title: "글 제목"
-date: 2026-06-25 09:00:00 +0900
-categories: [리뷰]
-tags: [액션, 인디]
-excerpt: "목록에 표시될 짧은 설명"
----
-```
+- `/`: 사이트 홈
+- `/wow/`: 월드 오브 워크래프트 자료실
+- `/classes/`: 클래스별 가이드
+- `/about/`: 사이트 소개
 
 ## 배포
 
-GitHub 저장소를 `moonecho.github.io`로 두고 `main` 브랜치에 푸시하면 GitHub Pages에서 자동 배포됩니다.
+`main` 브랜치에 푸시하면 GitHub Pages에서 `https://flat81.github.io/moonecho/`로 배포됩니다.
