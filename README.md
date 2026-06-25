@@ -1,24 +1,31 @@
-# 달빛여운의 게임 블로그
+# MoonEcho Game Log
 
-GitHub Pages + Jekyll 기반 정적 블로그입니다.
+GitHub Pages + Jekyll 기반 개인 게임 블로그입니다.
 
-## 배포
-
-1. 이 저장소를 GitHub에 `moonecho.github.io` 이름으로 연결합니다.
-2. 저장소 **Settings → Pages**에서 소스가 **Deploy from a branch**이고 브랜치가 `main` / `/ (root)`인지 확인합니다.
-3. `main`에 푸시하면 빌드 후 `https://moonecho.github.io` 에 반영됩니다.
-
-## 글 추가
-
-`_posts`에 `2026-04-02-글제목.md` 형식으로 파일을 만들고, 상단에 `layout: post`, `title`, `date` 등을 적습니다.
-
-## 로컬 미리보기 (선택)
-
-[Ruby](https://www.ruby-lang.org/)와 Bundler가 있을 때:
+## 로컬 실행
 
 ```bash
 bundle install
 bundle exec jekyll serve
 ```
 
-브라우저에서 `http://127.0.0.1:4000` 으로 확인합니다.
+브라우저에서 `http://127.0.0.1:4000`으로 확인합니다.
+
+## 새 글 작성
+
+`_posts/`에 `YYYY-MM-DD-title.md` 형식으로 파일을 만들고 front matter를 작성합니다.
+
+```markdown
+---
+layout: post
+title: "글 제목"
+date: 2026-06-25 09:00:00 +0900
+categories: [리뷰]
+tags: [액션, 인디]
+excerpt: "목록에 표시될 짧은 설명"
+---
+```
+
+## 배포
+
+GitHub 저장소를 `moonecho.github.io`로 두고 `main` 브랜치에 푸시하면 GitHub Pages에서 자동 배포됩니다.
