@@ -1,7 +1,7 @@
 title: "MoonEcho Game Log"
 description: "플레이 기록, 리뷰, 공략 메모를 쌓아가는 개인 게임 블로그"
-url: "https://moonecho.github.io"
-baseurl: ""
+url: "https://flat81.github.io"
+baseurl: "/moonecho"
 
 permalink: /posts/:year/:month/:day/:title/
 
