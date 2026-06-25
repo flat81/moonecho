@@ -1,4 +1,4 @@
-title: "MoonEcho Game Log"
+title: "달빛여운 Game Log"
 description: "플레이 기록, 리뷰, 공략 메모를 쌓아가는 개인 게임 블로그"
 url: "https://flat81.github.io"
 baseurl: "/moonecho"
@@ -10,7 +10,7 @@ plugins:
   - jekyll-seo-tag
 
 author:
-  name: MoonEcho
+  name: 달빛여운
   email: ""
 
 markdown: kramdown

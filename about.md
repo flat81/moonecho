@@ -7,7 +7,7 @@ permalink: /about/
 <section class="page-hero page-hero--compact">
   <p class="eyebrow">About</p>
   <h1>게임을 오래 기억하기 위한 기록실</h1>
-  <p>MoonEcho Game Log는 플레이가 끝난 뒤에도 남는 장면, 시스템, 선택, 감정을 붙잡아두는 개인 블로그입니다.</p>
+  <p>달빛여운 Game Log는 플레이가 끝난 뒤에도 남는 장면, 시스템, 선택, 감정을 붙잡아두는 개인 블로그입니다.</p>
 </section>
 
 <section class="prose">

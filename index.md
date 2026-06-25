@@ -5,7 +5,7 @@ title: 홈
 
 <section class="hero" style="background-image: linear-gradient(90deg, rgba(8, 10, 16, .94), rgba(8, 10, 16, .58) 42%, rgba(8, 10, 16, .08)), url('{{ "/assets/images/game-room-hero.png" | relative_url }}');">
   <div class="hero__inner">
-    <p class="eyebrow">MoonEcho Game Log</p>
+    <p class="eyebrow">달빛여운 Game Log</p>
     <h1>밤에 쌓는 플레이 기록</h1>
     <p class="hero__lead">엔딩을 본 게임, 아직 붙잡고 있는 게임, 빌드와 공략 사이에서 남긴 생각들을 차곡차곡 정리합니다.</p>
     <div class="hero__actions">

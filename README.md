@@ -1,4 +1,4 @@
-# MoonEcho Game Log
+# 달빛여운 Game Log
 
 GitHub Pages + Jekyll 기반 개인 게임 블로그입니다.
 
